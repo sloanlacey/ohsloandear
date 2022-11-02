@@ -1,10 +1,15 @@
 import './App.css';
+import Navigation from './components/Navigation/Navigation';
+import Hero from './components/Hero/Hero';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div>
-      <h1 className="text-purple-500">Hello, Sloan Dear</h1>
-    </div>
+    <>
+      <Navigation />
+      <Hero />
+      <Footer />
+    </>
   );
 }
 

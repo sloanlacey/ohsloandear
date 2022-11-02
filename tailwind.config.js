@@ -4,7 +4,28 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      zilla: [
+        'Zilla Slab',
+        'serif',
+      ],
+      open: [
+        'Open Sans',
+        'sans-serif',
+      ],
+      silk: [
+        'Silkscreen',
+        'cursive',
+      ],
+    },
+    colors: {
+      'background-black': '#121212',
+      'light-green': '#34FEBB',
+      'dark-green': '#32AE85',
+    },
+    maxWidth: {
+      'full-width-wrap': '1440px',
+    }
   },
   plugins: [],
 }
